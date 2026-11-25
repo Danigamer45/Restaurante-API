@@ -1,0 +1,22 @@
+{
+  "name": "restaurante-api",
+  "version": "1.0.0",
+  "description": "API REST JSON para gestionar restaurantes y pedidos",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node js.server",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
